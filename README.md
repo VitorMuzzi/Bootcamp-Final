@@ -20,4 +20,4 @@ Conforme o planejamento, o repositório está organizado em:
 - **Versionamento:** Git & GitHub.
 
 ## Link do Portfólio
-[Acesse meu site aqui](link do github pages) 
+(link do github pages) 
