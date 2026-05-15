@@ -20,4 +20,4 @@ Conforme o planejamento, o repositório está organizado em:
 - **Versionamento:** Git & GitHub.
 
 ## Link do Portfólio
-(link do github pages) 
+https://vitormuzzi.github.io/BootcampIntermed/
