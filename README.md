@@ -1,25 +1,30 @@
-# Portfólio - Vitor Gomes Muzzi
+# PortfolioHUB — Entrega Final
 
-Repositório destinado ao armazenamento de projetos acadêmicos para composição de perfil profissional e pessoais no github.
+Repositório da entrega final do Bootcamp de Engenharia de Software — CEUB. Implantação do PortfolioHUB com integração à GitHub API e políticas de segurança.
 
-## Cursos e Formações
-- **Curso atual:** Engenharia de Software, CEUB
-
-- Engenharia de Controle e Automação, UNB - 4 semestres
-
+## Aluno
+- **Nome:** Vitor Gomes Muzzi
+- **Curso:** Engenharia de Software, CEUB
+- **Formação anterior:** Engenharia de Controle e Automação, UnB — 4 semestres
 
 ## Estrutura do Repositório
-Conforme o planejamento, o repositório está organizado em:
 
-* **index.html:**: todo o codigo html do site, estruturando-o.
-* **style.css:**: toda a estilização do site, adicionando cor e indentidade visual ao portifólio
-* **script.js:**: a interação com o usuário, dando funcionalidade aos botões do site
+| Arquivo | Descrição |
+|---|---|
+| `index.html` | Estrutura HTML do portfólio |
+| `style.css` | Estilização e identidade visual |
+| `script.js` | Lógica JavaScript + integração GitHub API |
+| `SECURITY.md` | Política de segurança do repositório |
+| `DOCUMENTACAO.md` | Documentação completa das 6 seções da entrega |
+| `pessoais/BJ-sim/` | Projeto pessoal: Blackjack Simulator (Python) |
 
 ## Tecnologias e Ferramentas
-- **Frontend:** JavaScript, React.js, HTML, CSS.
-- **Backend & Automação:** Python, Node.js.
-- **Banco de Dados:** SQLite.
-- **Versionamento:** Git & GitHub.
+- **Frontend:** HTML5, CSS3, JavaScript ES6+
+- **Integração:** GitHub REST API v3
+- **Backend & Automação:** Python, Node.js
+- **Banco de Dados:** SQLite
+- **Versionamento:** Git & GitHub
+- **IA de Apoio:** Google Gemini
 
 ## Link do Portfólio
-https://vitormuzzi.github.io/Bootcamp-Intermediario/
+https://vitormuzzi.github.io/Bootcamp-Final/
