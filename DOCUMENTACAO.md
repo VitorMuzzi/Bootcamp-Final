@@ -3,8 +3,8 @@
 **Aluno:** Vitor Gomes Muzzi
 **Curso:** Engenharia de Software — CEUB
 **Data de Entrega:** 14/06/2026
-**Repositório:** https://github.com/VitorMuzzi/Bootcamp-Intermediario
-**Site em Produção:** https://vitormuzzi.github.io/Bootcamp-Intermediario/
+**Repositório:** https://github.com/VitorMuzzi/Bootcamp-Final
+**Site em Produção:** https://vitormuzzi.github.io/Bootcamp-Final/
 
 ---
 
@@ -61,20 +61,20 @@ O Gemini listou: Branch Protection Rules, Dependabot, Secret Scanning, 2FA e SEC
 
 ### 2.1 Configuração do Repositório
 
-O repositório **Bootcamp-Intermediario** foi criado no GitHub com as seguintes configurações iniciais:
+O repositório **Bootcamp-Final** foi criado no GitHub com as seguintes configurações iniciais:
 
 ```
-Nome:        Bootcamp-Intermediario
+Nome:        Bootcamp-Final
 Visibilidade: Public
 Branch padrão: main
 GitHub Pages: Ativado (source: branch main, raiz /)
-Descrição:   Portfólio e repositório de projetos acadêmicos — Vitor Gomes Muzzi
+Descrição:   Entrega Final - PortfolioHUB + GitHub API Integration
 ```
 
 **Estrutura de arquivos do repositório:**
 
 ```
-Bootcamp-Intermediario/
+Bootcamp-Final/
 ├── index.html          — Estrutura HTML do portfólio
 ├── style.css           — Estilização e tema visual
 ├── script.js           — Lógica JavaScript + integração GitHub API
@@ -229,7 +229,7 @@ Source:  Deploy from branch
 Branch:  main
 Folder:  / (root)
 HTTPS:   Enforced
-URL:     https://vitormuzzi.github.io/Bootcamp-Intermediario/
+URL:     https://vitormuzzi.github.io/Bootcamp-Final/
 ```
 
 A cada push para `main`, o GitHub Pages reconstrói e publica automaticamente o site — sem necessidade de pipeline de CI adicional para projetos estáticos.
@@ -319,7 +319,7 @@ O portfólio é **intencionalmente público**, servindo como vitrine profissiona
 
 O site está disponível em produção e acessível publicamente:
 
-**URL de produção:** https://vitormuzzi.github.io/Bootcamp-Intermediario/
+**URL de produção:** https://vitormuzzi.github.io/Bootcamp-Final/
 
 **Verificações de produção:**
 - HTTPS ativo e certificado válido (GitHub Pages + Let's Encrypt)
@@ -379,10 +379,10 @@ O uso de `img.src` para buscar o índice atual na array de imagens falhava silen
 
 ### 6.4 Link para Apresentação em Vídeo
 
-> **[Inserir link do YouTube aqui após gravar o vídeo]**
+> **https://youtu.be/qUnUF3aIhyI**
 
-O vídeo de apresentação cobrirá:
-1. Demonstração do site em produção (https://vitormuzzi.github.io/Bootcamp-Intermediario/)
+O vídeo de apresentação cobre:
+1. Demonstração do site em produção (https://vitormuzzi.github.io/Bootcamp-Final/)
 2. Navegação pelas seções: Header, Sobre, Habilidades, Projetos, GitHub
 3. Demonstração da integração em tempo real com a GitHub API
 4. Breve walkthrough do código de integração no `script.js`
@@ -392,4 +392,4 @@ O vídeo de apresentação cobrirá:
 ---
 
 *Documento gerado em: 14/06/2026*
-*Repositório: https://github.com/VitorMuzzi/Bootcamp-Intermediario*
+*Repositório: https://github.com/VitorMuzzi/Bootcamp-Final*
