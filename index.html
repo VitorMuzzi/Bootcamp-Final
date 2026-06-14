@@ -15,6 +15,7 @@
             <a href="#sobre">Sobre</a>
             <a href="#habilidades">Habilidades</a>
             <a href="#projetos">Projetos</a>
+            <a href="#github">GitHub</a>
         </div>
     </nav>
 
@@ -33,10 +34,10 @@
     <section id="sobre">
         <h2 class="section-title">Sobre Mim</h2>
         <p style="max-width: 800px; font-size: 1.15rem; line-height: 1.8; color: var(--text-secondary);">
-            Sou um desenvolvedor focado em arquitetura de software, automação e sistemas de controle. 
-            Tive um período de 2 anos (4 semestres) cursando Engenharia de Controle e Automação (Mecatrônica) 
-            na Universidade de Brasília (UnB). Atualmente, estou graduando em Engenharia de Software pelo 
-            CEUB. Possuo forte interesse em criar integrações eficientes e lógicas robustas no backend, 
+            Sou um desenvolvedor focado em arquitetura de software, automação e sistemas de controle.
+            Tive um período de 2 anos (4 semestres) cursando Engenharia de Controle e Automação (Mecatrônica)
+            na Universidade de Brasília (UnB). Atualmente, estou graduando em Engenharia de Software pelo
+            CEUB. Possuo forte interesse em criar integrações eficientes e lógicas robustas no backend,
             aliadas a interfaces modernas no frontend.
         </p>
     </section>
@@ -47,36 +48,36 @@
             <div class="skill-tag" onclick="openTechModal('JavaScript', 'fa-js', 'Utilizado no desenvolvimento de interfaces dinâmicas e na integração de lógicas de frontend com APIs, permitindo uma comunicação ágil entre cliente e servidor em diversos projetos acadêmicos e pessoais.')"><i class="fa-brands fa-js"></i> JavaScript</div>
             <div class="skill-tag" onclick="openTechModal('React.js', 'fa-react', 'Tecnologia central no desenvolvimento do front-end do projeto Kyndo. Utilizei o React para criar componentes reutilizáveis e gerenciar estados de forma eficiente em um sistema de demandas.')"><i class="fa-brands fa-react"></i> React.js</div>
             <div class="skill-tag" onclick="openTechModal('Node.js', 'fa-node-js', 'Empregado na construção de arquiteturas de backend voltadas para performance e na integração de microsserviços, facilitando a troca de dados em tempo real.')"><i class="fa-brands fa-node-js"></i> Node.js</div>
-            <div class="skill-tag" onclick="openTechModal('Python', 'fa-python', 'Linguagem base para o desenvolvimento do meu bot de faturamento via WhatsApp. Criei scripts e automações com lógicas complexas para enviar lembretes e gerenciar integrações com a API de mensageria.')"><i class="fa-brands fa-python"></i> Python</div>
-            <div class="skill-tag" onclick="openTechModal('SQLite', 'fa-database', 'Implementado como solução de banco de dados no meu sistema de Controle de Acesso de Segurança. Ele foi essencial para gerenciar o cache de dispositivos e as permissões de hardware de forma leve e segura.')"><i class="fa-solid fa-database"></i> SQLite</div>
-            <div class="skill-tag" onclick="openTechModal('Git/GitHub', 'fa-git-alt', 'Ferramentas indispensáveis no meu fluxo de trabalho. Utilizo repositórios como o do Kyndo e meu Portfólio Web para garantir o versionamento de código estruturado e documentar o progresso das entregas.')"><i class="fa-brands fa-git-alt"></i> Git/GitHub</div>
+            <div class="skill-tag" onclick="openTechModal('Python', 'fa-python', 'Linguagem base para o desenvolvimento de automações e scripts analíticos. Criei simulações com lógicas complexas, como o Blackjack Simulator, e automações para integração com APIs externas.')"><i class="fa-brands fa-python"></i> Python</div>
+            <div class="skill-tag" onclick="openTechModal('SQLite', 'fa-database', 'Implementado como solução de banco de dados em sistemas de controle de acesso. Essencial para gerenciar o cache de dispositivos e as permissões de hardware de forma leve e segura.')"><i class="fa-solid fa-database"></i> SQLite</div>
+            <div class="skill-tag" onclick="openTechModal('Git/GitHub', 'fa-git-alt', 'Ferramentas indispensáveis no meu fluxo de trabalho. Utilizo repositórios no GitHub para versionamento estruturado, controle de acesso, integração via API e documentação de progresso nas entregas.')"><i class="fa-brands fa-git-alt"></i> Git/GitHub</div>
         </div>
     </section>
 
     <section id="projetos">
         <h2 class="section-title">Projetos em Destaque</h2>
         <div class="projects-grid">
-            
-            <div class="project-card" onclick="openProjectModal('Kyndo', ['image_0.png'], 'Sistema de gerenciamento de demandas projetado com arquitetura moderna para organização, rastreabilidade e acompanhamento de tarefas. Desenvolvido para centralizar o fluxo de trabalho da equipe, permitindo a criação, atribuição e monitoramento de tickets de demanda com atualizações em tempo real e relatórios de progresso.', 'https://github.com/VitorMuzzi/kyndo-sistema-de-gerenciamento-de-demandas', '')">
+
+            <div class="project-card" onclick="openProjectModal('Kyndo', [], 'Sistema de gerenciamento de demandas projetado com arquitetura moderna para organização, rastreabilidade e acompanhamento de tarefas. Desenvolvido para centralizar o fluxo de trabalho da equipe, permitindo a criação, atribuição e monitoramento de tickets de demanda com atualizações em tempo real e relatórios de progresso.', 'https://github.com/VitorMuzzi/kyndo-sistema-de-gerenciamento-de-demandas', '')">
                 <div class="view-more"><i class="fa-solid fa-expand"></i></div>
                 <div class="project-img"></div>
                 <div class="project-content">
                     <h3 class="project-title">Kyndo</h3>
                     <p class="project-desc">Sistema de gerenciamento de demandas projetado com arquitetura moderna para organização, rastreabilidade e acompanhamento ágil de tarefas.</p>
                     <div class="project-techs">
-                        <span>React.js</span> <span>FastAPI</span> <span>Integração</span>
+                        <span>React.js</span><span>FastAPI</span><span>SQLite</span>
                     </div>
                 </div>
             </div>
 
-            <div class="project-card" onclick="openProjectModal('nome do repositorio', [], 'descrição do projeto', 'https://github.com/VitorMuzzi', '')">
+            <div class="project-card" onclick="openProjectModal('Blackjack Simulator', [], 'Script que simula 1.000 partidas de blackjack com 100 rodadas cada, aplicando análise matemática e o método de contagem de cartas Hi-Lo para prever resultados e maximizar as chances de vitória. Compara três estratégias: jogadores aleatórios, jogadores matemáticos e robôs contadores de cartas, retornando estatísticas completas de cada abordagem.', 'https://github.com/VitorMuzzi/Bootcamp-Intermediario/tree/main/pessoais/BJ-sim', '')">
                 <div class="view-more"><i class="fa-solid fa-expand"></i></div>
                 <div class="project-img img-2"></div>
                 <div class="project-content">
-                    <h3 class="project-title">Blackjack-Simulator</h3>
-                    <p class="project-desc">script que simula um jogo de blackjack e, a partir de analise matematica e metodo hi-lo tenta prever os resultados e melhorar as chances de vitoria no jogo.</p>
+                    <h3 class="project-title">Blackjack Simulator</h3>
+                    <p class="project-desc">Script que simula partidas de blackjack aplicando análise matemática e o método Hi-Lo para prever resultados e maximizar as chances de vitória.</p>
                     <div class="project-techs">
-                        <span>Linguagem</span> 
+                        <span>Python</span><span>Probabilidade</span><span>Hi-Lo</span>
                     </div>
                 </div>
             </div>
@@ -84,12 +85,55 @@
         </div>
     </section>
 
+    <section id="github">
+        <h2 class="section-title">GitHub</h2>
+
+        <div class="github-profile-card">
+            <div class="github-avatar-wrapper">
+                <div class="github-avatar-skeleton" id="github-avatar-skeleton"></div>
+                <img id="github-avatar" src="" alt="Avatar do GitHub" class="github-avatar">
+            </div>
+            <div class="github-profile-info">
+                <h3 id="github-name" class="github-display-name">Carregando...</h3>
+                <a href="https://github.com/VitorMuzzi" target="_blank" class="github-username-link">@VitorMuzzi</a>
+                <p id="github-bio" class="github-bio"></p>
+                <div class="github-stats-row">
+                    <div class="github-stat-item">
+                        <span id="github-repos-count" class="stat-value">—</span>
+                        <span class="stat-label">Repositórios</span>
+                    </div>
+                    <div class="github-stat-item">
+                        <span id="github-followers-count" class="stat-value">—</span>
+                        <span class="stat-label">Seguidores</span>
+                    </div>
+                    <div class="github-stat-item">
+                        <span id="github-following-count" class="stat-value">—</span>
+                        <span class="stat-label">Seguindo</span>
+                    </div>
+                </div>
+                <a href="https://github.com/VitorMuzzi" target="_blank" class="btn btn-outline github-profile-btn">
+                    <i class="fa-brands fa-github"></i> Ver Perfil Completo
+                </a>
+            </div>
+        </div>
+
+        <h3 class="repos-subtitle">Repositórios Recentes</h3>
+        <div id="repos-grid" class="repos-grid">
+            <div class="repos-loading">
+                <div class="loading-dots">
+                    <span></span><span></span><span></span>
+                </div>
+                <p>Carregando repositórios do GitHub...</p>
+            </div>
+        </div>
+    </section>
+
     <footer>
         <div class="social-links">
-            <a href="https://linkedin.com/in/seu-linkedin" target="_blank" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#" title="LinkedIn — adicione sua URL" class="linkedin-placeholder"><i class="fa-brands fa-linkedin"></i></a>
             <a href="https://github.com/VitorMuzzi" target="_blank" title="GitHub"><i class="fa-brands fa-github"></i></a>
         </div>
-        <p>© 2026 Vitor Gomes Muzzi. Criado para o Desafio Intermediário de Bootcamp.</p>
+        <p>© 2026 Vitor Gomes Muzzi — Portfólio com integração GitHub API.</p>
     </footer>
 
     <div id="techModal" class="modal">
@@ -104,18 +148,17 @@
     <div id="projectModal" class="modal">
         <div class="modal-content-project">
             <span class="close-btn" onclick="closeModal('projectModal')">&times;</span>
-            
-            <div class="project-gallery">
+
+            <div id="project-gallery-section" class="project-gallery">
                 <div class="main-img-container">
                     <img id="modalProjectMainImg" src="" alt="Visualização principal do projeto">
                 </div>
-                <div id="modalProjectThumbs" class="thumbnail-container">
-                </div>
+                <div id="modalProjectThumbs" class="thumbnail-container"></div>
             </div>
-            
+
             <div class="project-details-modal">
                 <div class="modal-project-title">
-                    <span id="modalProjectTitle">blackjack-Simulator</span>
+                    <span id="modalProjectTitle">Projeto</span>
                     <div class="project-links-modal">
                         <a id="modalProjectRepoBtn" href="" target="_blank" class="btn btn-outline btn-modal"><i class="fa-brands fa-github"></i> Repositório</a>
                         <a id="modalProjectDemoBtn" href="" target="_blank" class="btn btn-primary btn-modal"><i class="fa-solid fa-rocket"></i> Ver Demo</a>
